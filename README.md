@@ -24,7 +24,7 @@ class Credentials(object):
         
     @property
     def opera(self):
-        return getattr(self, 'credentials', Chrome().get)
+        return getattr(self, 'credentials', Opera().get)
 
     @opera.setter
     def opera(self, credentials):
