@@ -1,12 +1,12 @@
 # Osiris
 EN-US:
 Password recovery tool (class) for python
-Version 1.0
+ / Version 1.0
 
 
 PT-BR:
 Aplicação (classe) de recuperação de senhas
-Versão 1.0
+ / Versão 1.0
 # Example usage / Exemplo de usagem
 ```py
 from osiris import *
