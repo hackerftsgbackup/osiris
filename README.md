@@ -1,7 +1,10 @@
 # Osiris
-password recovery tool (class) for python
-version 1.0
-# Example Usage
+EN-US: Password recovery tool (class) for python
+EN-US: Version 1.0
+
+PT-BR: Aplicação (classe) de recuperação de senhas
+PT-BR: Versão 1.0
+# Example usage / Exemplo de usagem
 ```py
 from osiris import *
 
@@ -35,7 +38,7 @@ chrome = c.get
 firefox = c.get
 opera = c.get
 ```
-# Recovers passwords for the following browsers
+# Working on these browsers / Funcionandos nesses navegadores
 * Google Chrome   > (45.0.2454)
 * Mozilla Firefox > (42.0.0.5780)
 * Opera           > (33.0.1990.115)
