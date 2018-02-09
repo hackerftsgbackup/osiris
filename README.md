@@ -49,6 +49,6 @@ Osiris is still in version 1.0 so it may contain some bugs, please be patient.
 PT-BR:
 O Osiris ainda está na versão 1.0 então pode conter alguns bugs, por favor tenha paciência.
 # Working on these browsers / Funcionandos nesses navegadores
-* Google Chrome   > (45.0.2454)
-* Mozilla Firefox > (42.0.0.5780)
-* Opera           > (33.0.1990.115)
+* Google Chrome   > 45.0.x
+* Mozilla Firefox > 42.0.0.x
+* Opera           > 33.0.1990.x
