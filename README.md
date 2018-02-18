@@ -41,9 +41,9 @@ chrome = c.chrome
 firefox = c.firefox
 opera = c.opera
 
-print("Chrome: " + chrome)
-print("Firefox: " + firefox)
-print("Opera: " + opera)
+print("Chrome: " + str(chrome))
+print("Firefox: " + str(firefox))
+print("Opera: " + str(opera))
 ```
 # Warning / Aviso
 EN-US:
