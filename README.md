@@ -37,9 +37,9 @@ class Credentials(object):
         self.credentials = credentials
         
 c = Credentials()
-chrome = c.get
-firefox = c.get
-opera = c.get
+chrome = c.chrome
+firefox = c.firefox
+opera = c.opera
 ```
 # Warning / Aviso
 EN-US:
