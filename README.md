@@ -40,6 +40,10 @@ c = Credentials()
 chrome = c.chrome
 firefox = c.firefox
 opera = c.opera
+
+print(chrome)
+print(firefox)
+print(opera)
 ```
 # Warning / Aviso
 EN-US:
