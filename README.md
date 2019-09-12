@@ -56,3 +56,5 @@ O Osiris ainda está na versão 1.0 então pode conter alguns bugs, por favor te
 * Google Chrome   > 45.0.x
 * Mozilla Firefox > 42.0.0.x
 * Opera           > 33.0.1990.x
+
+*Inspirado em https://github.com/HackHound/PREC*
